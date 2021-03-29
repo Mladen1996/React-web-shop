@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 //import Products from "./components/Products/Products";
 import {commerce} from "./lib/commerce";
-import {Products,Navbar,Cart,Checkout,Category,Header,Pagination} from "./components";
+import {Products,Cart,Checkout,Category,Header,Pagination} from "./components";
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import { CssBaseline } from '@material-ui/core';
 

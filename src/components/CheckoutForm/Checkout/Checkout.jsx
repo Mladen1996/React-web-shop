@@ -108,7 +108,7 @@ const Checkout = ({cart,onCaptureCheckout, order, error}) => {
 
                     ))}
                     </Stepper>
-                    {activeStep==steps.length ? <Confirmation />: checkoutToken && <Form /> }
+                    {activeStep===steps.length ? <Confirmation />: checkoutToken && <Form /> }
                 </Paper>
             </main>
         </>

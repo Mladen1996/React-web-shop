@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import { IconButton,List, ListItem, ListItemText,Drawer,Typography } from "@material-ui/core";
 import { Menu } from "@material-ui/icons";
 import useStyles from "./styles";
-import {Link,useLocation} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const SideDrawer = ({navLinks}) => {
     const classes = useStyles();

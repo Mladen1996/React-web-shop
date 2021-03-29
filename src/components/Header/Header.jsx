@@ -37,7 +37,7 @@ const Header = ({totalItems}) => {
         </List>
         </Hidden>
         {
-                        location.pathname!='/cart'  && (
+                        location.pathname!=='/cart'  && (
                             <div className={classes.button}>
                            
                             <IconButton component={Link}  to="/cart" aria-label="Show cart items" color="inherit">
